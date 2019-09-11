@@ -1,0 +1,17 @@
+{
+  "name": "cljs-lumo",
+  "version": "1.0.0",
+  "description": "ClojureScript project build with lumo.",
+  "main": "main.js",
+  "repository": "https://github.com/neilhan/cljs-lumo/",
+  "author": "Neil Han",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "lumo": "^0.20.16"
+  },
+    "scripts": {
+        "build": "npx lumo -c src build.cljs",
+        "run": "npx lumo -c src src/hello_world/core.cljs"
+    }
+}
